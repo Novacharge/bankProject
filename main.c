@@ -8,12 +8,13 @@ struct ACCOUNT{
 
 int main()
 {
-    printf("Welcome to the bank!\n Do you have an account with us?[y,n]?\n");
+    printf("Welcome to the bank!\nDo you have an account with us?[y,n]?\n");
     char a = getchar();
-    if (a = y){
+    if (a = 'y'){
         /*they have an account*/
         /*now they sign in*/
         printf("Please enter login information\n");
+    }
     else
         printf("Sign up!\n");
 
